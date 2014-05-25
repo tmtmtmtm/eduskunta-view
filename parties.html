@@ -8,8 +8,11 @@ layout: default
   {{ party.name }} 
   {% assign mps = 0 %}
   {% for person in site.data.people %}
+    {% assign counted = 0 %}
     {% for membership in person.memberships %}
-      {% if membership.organization_id == party.id %}{% assign mps = mps | plus:1 %}{% endif %}
+      {% if counted == 0 and membership.organization_id == party.id %}
+        {% assign mps = mps | plus:1 %}{% assign counted = counted | plus:1 %}
+      {% endif %}
     {% endfor %}
   {% endfor %}
   ({{ mps }})
