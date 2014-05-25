@@ -4,6 +4,15 @@ layout: default
  
 <ul>
 {% for party in site.data.parties %}
-  <li> {{ party.name }} </li>
+  <li> 
+  {{ party.name }} 
+  {% assign mps = 0 %}
+  {% for person in site.data.people %}
+    {% for membership in person.memberships %}
+      {% if membership.organization_id == party.id %}{% assign mps = mps | plus:1 %}{% endif %}
+    {% endfor %}
+  {% endfor %}
+  ({{ mps }})
+  </li>
 {% endfor %}
 </ul>
