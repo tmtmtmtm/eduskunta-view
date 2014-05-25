@@ -1,0 +1,235 @@
+[
+  {
+    "id": "popit.eduskunta/council/pm",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Prime Minister",
+    "other_labels": [
+      {
+        "name": "Pääministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/dpm",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister deputising for the Prime Minister"
+  },
+  {
+    "id": "popit.eduskunta/council/maf",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Agriculture and Forestry",
+    "other_labels": [
+      {
+        "name": "Maa- ja metsätalousministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/mcs",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Culture and Sport"
+  },
+  {
+    "id": "popit.eduskunta/council/md",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Defence",
+    "other_labels": [
+      {
+        "name": "Puolustusministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/med",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Education",
+    "other_labels": [
+      {
+        "name": "Opetusministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/menv",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of the Environment",
+    "other_labels": [
+      {
+        "name": "Minister at the Ministry of Environment"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/mea",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Economic Affairs"
+  },
+  {
+    "id": "popit.eduskunta/council/meaft",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister for European Affairs and Foreign Trade"
+  },
+  {
+    "id": "popit.eduskunta/council/mf",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Finance",
+    "other_labels": [
+      {
+        "name": "Minister at the Ministry of Finance"
+      },
+      {
+        "name": "Valtiovarainministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/mfa",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister for Foreign Affairs",
+    "other_labels": [
+      {
+        "name": "Minister at the Ministry for Foreign Affairs"
+      },
+      {
+        "name": "Ulkoasiainministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/mft",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister for Foreign Trade"
+  },
+  {
+    "id": "popit.eduskunta/council/mftd",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister for Foreign Trade and Development"
+  },
+  {
+    "id": "popit.eduskunta/council/mh",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Housing"
+  },
+  {
+    "id": "popit.eduskunta/council/mhc",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Housing and Communications"
+  },
+  {
+    "id": "popit.eduskunta/council/mhss",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Health and Social Services"
+  },
+  {
+    "id": "popit.eduskunta/council/mi",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of the Interior",
+    "other_labels": [
+      {
+        "name": "Minister at the Ministry of the Interior"
+      },
+      {
+        "name": "Sisäasiainministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/dmi",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Deputy Minister of the Interior",
+    "other_labels": [
+      {
+        "name": "Apulaissisäasiainministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/mid",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister for International Development"
+  },
+  {
+    "id": "popit.eduskunta/council/mj",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Justice",
+    "other_labels": [
+      {
+        "name": "Oikeusministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/ml",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Labour",
+    "other_labels": [
+      {
+        "name": "Työministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/mpalg",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Public Administration and Local Government"
+  },
+  {
+    "id": "popit.eduskunta/council/mpo",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister at the Prime Minister Office"
+  },
+  {
+    "id": "popit.eduskunta/council/mrma",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Regional and Municipal Affairs"
+  },
+  {
+    "id": "popit.eduskunta/council/msa",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Social Affairs",
+    "other_labels": [
+      {
+        "name": "Sosiaaliministeri"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/msah",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Social Affairs and Health",
+    "other_labels": [
+      {
+        "name": "Minister at the Ministry of Social Affairs and Health"
+      },
+      {
+        "name": "Sosiaali- ja terveysministeri"
+      },
+      {
+        "name": "Ministeri sosiaali- ja terveysministeriössä"
+      }
+    ]
+  },
+  {
+    "id": "popit.eduskunta/council/mt",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Transport"
+  },
+  {
+    "id": "popit.eduskunta/council/mtc",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Transport and Communications"
+  },
+  {
+    "id": "popit.eduskunta/council/mti",
+    "organization_id": "popit.eduskunta/council-of-state",
+    "role": "Minister of Trade and Industry",
+    "other_labels": [
+      {
+        "name": "Minister at the Ministry of Trade and Industry"
+      },
+      {
+        "name": "Kauppa- ja teollisuusministeri"
+      }
+    ]
+  }
+]
