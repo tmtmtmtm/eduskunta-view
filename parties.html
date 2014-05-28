@@ -2,20 +2,28 @@
 layout: default
 ---
  
-<ul>
+{% capture party_with_count %}  
 {% for party in site.data.parties %}
-  <li> 
-  {{ party.name }} 
   {% assign mps = 0 %}
+  {% assign prefix = 'a' %}
   {% for person in site.data.people %}
     {% assign counted = 0 %}
     {% for membership in person.memberships %}
       {% if counted == 0 and membership.organization_id == party.id %}
-        {% assign mps = mps | plus:1 %}{% assign counted = counted | plus:1 %}
+        {% assign prefix = prefix | append:'a' %}
+        {% assign mps = mps | plus:1 %}
+        {% assign counted = counted | plus:1 %}
       {% endif %}
     {% endfor %}
   {% endfor %}
-  ({{ mps }})
-  </li>
+  {{ prefix }}+++{{party.name | replace: ' ', '---'}}+++{{ mps }}
 {% endfor %}
+{% endcapture %}
+{% assign sortedparties = party_with_count | split:' ' | sort %}
+
+<ul>
+  {% for party in sortedparties reversed %}
+    {% assign parts = party | split:'+++' %}
+    <li>{{ parts[1] | replace: '---', ' ' }} ({{ parts[2] }})</li>
+  {% endfor %}
 </ul>
