@@ -16,7 +16,7 @@ layout: default
       {% endif %}
     {% endfor %}
   {% endfor %}
-  {{ prefix }}+++{{party.name | replace: ' ', '---'}}+++{{ mps }}
+  {{ prefix }}+++{{party.name | replace: ' ', '---'}}+++{{ party.id }}+++{{ mps }}
 {% endfor %}
 {% endcapture %}
 {% assign sortedparties = party_with_count | split:' ' | sort %}
@@ -24,6 +24,6 @@ layout: default
 <ul>
   {% for party in sortedparties reversed %}
     {% assign parts = party | split:'+++' %}
-    <li>{{ parts[1] | replace: '---', ' ' }} ({{ parts[2] }})</li>
+    <li><a href="/party/{{ parts[2] | split:"/" | last }}.html">{{ parts[1] | replace: '---', ' ' }}</a> ({{ parts[3] }})</li>
   {% endfor %}
 </ul>
