@@ -1,10 +1,9 @@
 ---
 layout: default
-party: r
 ---
  
 {% for party in site.data.parties %}
-  {% if party.id == 'popit.eduskunta/party/r' %}
+  {% if party.id == page.party %}
     <h2>{{ party.name }}</h2>
     <ul>
     {% for person in site.data.people %}
